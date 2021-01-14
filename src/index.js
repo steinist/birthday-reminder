@@ -1,4 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-ReactDOM.render(document.getElementById("root"));
+import Card from "./card";
+import "./index.css";
+
+function BirthdayReminder() {
+  return (
+    <main>
+      <Card />
+    </main>
+  );
+}
+
+ReactDOM.render(<BirthdayReminder />, document.getElementById("root"));
